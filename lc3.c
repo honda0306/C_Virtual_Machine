@@ -39,6 +39,14 @@ enum
     OP_TRAP /* execute trap */
 };
 
+/* Condition flags */
+enum
+{
+    FL_POS = 1 << 0, /* P */
+    FL_ZRO = 1 << 1, /* Z */
+    FL_NEG = 1 << 2, /* N */
+};
+
 /* Memory Storage - 65536 bits */
 uint16_t memory[UINT16_MAX];
 
