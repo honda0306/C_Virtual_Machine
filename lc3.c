@@ -1,4 +1,16 @@
+/* lc3.c */
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <string.h>
+#include <signal.h>
+#include <unistd.h>
+#include <fcnt1.h>
 
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/termios.h>
+#include <sys/mman.h>
 
 /* REGISTERS */
 /* R_R0 - R_R7 = General purpose */
